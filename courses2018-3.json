@@ -2,12 +2,15 @@
     {
         "course_description": "Exploration of computer hardware and software. Emphasis on problem solving and programming in C++. Provides necessary foundation for CS 1B.",
         "course_id": "CS 1A",
-        "course_info": "Units: 3.5",
+        "course_info": {
+            "prereq": "null",
+            "units": "3.5"
+        },
         "course_title": "CS 1A - INTRODUCTION TO COMPUTER SCIENCE I",
         "tickets": [
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -17,7 +20,7 @@
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "9:30AM - 10:15",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -27,7 +30,7 @@
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "12:30PM - 1:20",
                 "lec_day": "M W",
                 "lec_time": "11:00AM - 12:15",
@@ -80,7 +83,10 @@
     {
         "course_description": "Study of the concepts of structured and object-oriented programming using a high-level programming language, currently C++.",
         "course_id": "CS 1B",
-        "course_info": "Units: 3.5lockPrerequisite: CS 1A",
+        "course_info": {
+            "prereq": "CS 1A",
+            "units": "3.5"
+        },
         "course_title": "CS 1B - INTRODUCTION TO COMPUTER SCIENCE II",
         "tickets": [
             {
@@ -95,7 +101,7 @@
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "11:00AM - 11:50",
                 "lec_day": "M W",
                 "lec_time": "9:30AM - 10:45",
@@ -105,7 +111,7 @@
             },
             {
                 "instructor": "C. Oliveira",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "8:00PM - 8:50",
                 "lec_day": "M W",
                 "lec_time": "6:30PM - 7:45",
@@ -128,7 +134,10 @@
     {
         "course_description": "The third and final course in the Introduction to Computer Science series. Designed for computer science majors and interested professionals.  Topics include lexical conventions, data types, classes, constructors, destructors, overloading, conversions, inheritance, exceptions, and I/O. Solutions will be implemented using a high-level language-currently C++.",
         "course_id": "CS 1C",
-        "course_info": "Units: 3.5lockPrerequisite: CS 1B",
+        "course_info": {
+            "prereq": "CS 1B",
+            "units": "3.5"
+        },
         "course_title": "CS 1C - INTRODUCTION TO COMPUTER SCIENCE III",
         "tickets": [
             {
@@ -156,12 +165,15 @@
     {
         "course_description": "Basic concepts of data structures and related algorithms.",
         "course_id": "CS 1D",
-        "course_info": "Units: 3.5lockPrerequisite: CS 1B",
+        "course_info": {
+            "prereq": "CS 1B",
+            "units": "3.5"
+        },
         "course_title": "CS 1D - DATA STRUCTURES",
         "tickets": [
             {
                 "instructor": "J. Lebowitz",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "3:30PM - 4:20",
                 "lec_day": "M W",
                 "lec_time": "2:00PM - 3:15",
@@ -171,7 +183,7 @@
             },
             {
                 "instructor": "J. Lebowitz",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "6:30PM - 7:20",
                 "lec_day": "M W",
                 "lec_time": "5:00PM - 6:15",
@@ -194,12 +206,15 @@
     {
         "course_description": "An introductory course in computer organization with emphasis on machine language programming.",
         "course_id": "CS 3A",
-        "course_info": "Units: 3.5lockPrerequisite: CS 1A",
+        "course_info": {
+            "prereq": "CS 1A",
+            "units": "3.5"
+        },
         "course_title": "CS 3A - COMPUTER ORGANIZATION AND MACHINE LANGUAGE",
         "tickets": [
             {
                 "instructor": "G. Eaton",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -209,7 +224,7 @@
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "3:00PM - 3:50",
                 "lec_day": "M W",
                 "lec_time": "1:30PM - 2:45",
@@ -222,7 +237,10 @@
     {
         "course_description": "Further concepts of computer organization with emphasis on assembly language. Will require sign up for two sessions in the CS Learning Center.",
         "course_id": "CS 3B",
-        "course_info": "Units: 3.5lockPrerequisite: CS 3A",
+        "course_info": {
+            "prereq": "CS 3A",
+            "units": "3.5"
+        },
         "course_title": "CS 3B - COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
         "tickets": [
             {
@@ -250,12 +268,15 @@
     {
         "course_description": "Basics of the Java languages. Classes, methods and parameters. Basic inheritance and event driven programming. Programming with Java libraries.",
         "course_id": "CS 4A",
-        "course_info": "Units: 3.5lockPrerequisite: CS 1B",
+        "course_info": {
+            "prereq": "CS 1B",
+            "units": "3.5"
+        },
         "course_title": "CS 4A - INTRODUCTION TO JAVA FOR COMPUTER SCIENCE",
         "tickets": [
             {
                 "instructor": "G. Eaton",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "12:30PM - 1:20",
                 "lec_day": "M W",
                 "lec_time": "11:00AM - 12:15",
@@ -278,12 +299,15 @@
     {
         "course_description": "Advanced topics in Java to include GUI design using swing, the Java foundation classes, servlets, JSP, and JDBC.",
         "course_id": "CS 4B",
-        "course_info": "Units: 3.5lockPrerequisite: CS 4A",
+        "course_info": {
+            "prereq": "CS 4A",
+            "units": "3.5"
+        },
         "course_title": "CS 4B - ADVANCED TOPICS IN JAVA FOR COMPUTER SCIENCE",
         "tickets": [
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "M W (",
+                "lab_day": "M W",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:20",

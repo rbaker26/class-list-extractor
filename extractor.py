@@ -14,11 +14,6 @@ sem_map = {
         3: 'Fall',
         }
 
-#def space_stripper(string):
-#    if (str(string).endswith(' ')):
-#        string = str(string).[:len(string)-1]
-#        space_stripper(string)
-#    elif (str(string).strip)
 
 def find_nth(haystack, needle, n):
     start = haystack.find(needle)
@@ -73,9 +68,9 @@ def build_dict(url):
                     'instructor': (section.find(attrs={'title': 'INSTRUCTOR'}).text.strip())[6:],
                     }
             tickets.append(ticket)
-            
-
     return courses
+
+
 
 def ticket_list(courses):
     tickets = []
@@ -87,9 +82,12 @@ def ticket_list(courses):
 if __name__ == '__main__':
     courses = build_dict(url.format(year=year, semester=semester))
     import json
-    with open(str('courses' + str(year) + '-' + str(semester) + '.json'), 'w') as file:
+    cFileName = 'courses{year}-{semester}.json'
+    with open(cFileName.format(year=year, semester=semester), 'w') as file:
+    #with open(str('courses' + str(year) + '-' + str(semester) + '.json'), 'w') as file:
         json.dump(courses, file, sort_keys=True, indent=4)
     tickets = ticket_list(courses)
-    with open('tickets.txt', 'w') as file:
+    tFilename = 'tickets{year}-{semester}.txt'
+    with open(tFilename.format(year=year, semester=semester), 'w') as file:
         file.write('\n'.join(tickets))
 

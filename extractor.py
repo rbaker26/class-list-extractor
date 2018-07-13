@@ -58,9 +58,9 @@ def ticket_list(courses):
 if __name__ == '__main__':
     courses = build_dict(url.format(year=year, semester=semester))
     import json
-    with open('courses.json', 'w') as f:
-        json.dump(courses, f, sort_keys=True, indent=4)
+    with open(str('courses' + str(year) + '-' + str(semester) + '.json'), 'w') as file:
+        json.dump(courses, file, sort_keys=True, indent=4)
     tickets = ticket_list(courses)
-    with open('tickets.txt', 'w') as f:
-        f.write('\n'.join(tickets))
+    with open('tickets.txt', 'w') as file:
+        file.write('\n'.join(tickets))
 

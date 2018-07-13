@@ -1,0 +1,250 @@
+[
+    {
+        "course_description": "Exploration of computer hardware and software. Emphasis on problem solving and programming in C++. Provides necessary foundation for CS 1B.",
+        "course_id": "CS 1A",
+        "course_info": "Units: 3.5",
+        "course_title": "CS 1A - INTRODUCTION TO COMPUTER SCIENCE I",
+        "tickets": [
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personM. Rousseau",
+                "number": "14120",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "8:00AM - 9:159:30AM - 10:20"
+            },
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personH. Bodhanwala",
+                "number": "80485",
+                "room": "roomSM 122",
+                "status": "Open",
+                "time": "8:00AM - 9:159:30AM - 10:15"
+            },
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personM. Rousseau",
+                "number": "14135",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "11:00AM - 12:1512:30PM - 1:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personM. Rousseau",
+                "number": "14155",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "8:00AM - 9:159:30AM - 10:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personH. Bodhanwala",
+                "number": "80400",
+                "room": "roomSCI 311",
+                "status": "Full",
+                "time": "8:00AM - 9:159:30AM - 10:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personM. Rousseau",
+                "number": "14165",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "11:00AM - 12:1512:30PM - 1:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personD. Rainey",
+                "number": "14170",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "2:00PM - 3:153:30PM - 4:20"
+            }
+        ]
+    },
+    {
+        "course_description": "Study of the concepts of structured and object-oriented programming using a high-level programming language, currently C++.",
+        "course_id": "CS 1B",
+        "course_info": "Units: 3.5lockPrerequisite: CS 1A",
+        "course_title": "CS 1B - INTRODUCTION TO COMPUTER SCIENCE II",
+        "tickets": [
+            {
+                "day": "M W (Lec)    F (Lab)",
+                "instructor": "personJ. Barnett",
+                "number": "14215",
+                "room": "roomSM 346",
+                "status": "Open",
+                "time": "8:00AM - 9:158:00AM - 9:50"
+            },
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personJ. Barnett",
+                "number": "14175",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "9:30AM - 10:4511:00AM - 11:50"
+            },
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personC. Oliveira",
+                "number": "14230",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "6:30PM - 7:458:00PM - 8:50"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personD. Begalli",
+                "number": "14250",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "5:00PM - 6:156:30PM - 7:20"
+            }
+        ]
+    },
+    {
+        "course_description": "The third and final course in the Introduction to Computer Science series. Designed for computer science majors and interested professionals.  Topics include lexical conventions, data types, classes, constructors, destructors, overloading, conversions, inheritance, exceptions, and I/O. Solutions will be implemented using a high-level language-currently C++.",
+        "course_id": "CS 1C",
+        "course_info": "Units: 3.5lockPrerequisite: CS 1B",
+        "course_title": "CS 1C - INTRODUCTION TO COMPUTER SCIENCE III",
+        "tickets": [
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personJ. Kath",
+                "number": "14280",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "9:30AM - 10:4511:00AM - 11:50"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personJ. Kath",
+                "number": "14320",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "12:30PM - 1:452:00PM - 2:50"
+            }
+        ]
+    },
+    {
+        "course_description": "Basic concepts of data structures and related algorithms.",
+        "course_id": "CS 1D",
+        "course_info": "Units: 3.5lockPrerequisite: CS 1B",
+        "course_title": "CS 1D - DATA STRUCTURES",
+        "tickets": [
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personJ. Lebowitz",
+                "number": "14480",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Full",
+                "time": "2:00PM - 3:153:30PM - 4:20"
+            },
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personJ. Lebowitz",
+                "number": "14490",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Open",
+                "time": "5:00PM - 6:156:30PM - 7:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personN. Ahmed",
+                "number": "80000",
+                "room": "roomSM 301    roomSM 346",
+                "status": "Open",
+                "time": "6:30PM - 7:458:00PM - 8:50"
+            }
+        ]
+    },
+    {
+        "course_description": "An introductory course in computer organization with emphasis on machine language programming.",
+        "course_id": "CS 3A",
+        "course_info": "Units: 3.5lockPrerequisite: CS 1A",
+        "course_title": "CS 3A - COMPUTER ORGANIZATION AND MACHINE LANGUAGE",
+        "tickets": [
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personG. Eaton",
+                "number": "17510",
+                "room": "roomSM 202",
+                "status": "Full",
+                "time": "8:00AM - 9:159:30AM - 10:20"
+            },
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personJ. Barnett",
+                "number": "17515",
+                "room": "roomSM 202",
+                "status": "Full",
+                "time": "1:30PM - 2:453:00PM - 3:50"
+            }
+        ]
+    },
+    {
+        "course_description": "Further concepts of computer organization with emphasis on assembly language. Will require sign up for two sessions in the CS Learning Center.",
+        "course_id": "CS 3B",
+        "course_info": "Units: 3.5lockPrerequisite: CS 3A",
+        "course_title": "CS 3B - COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
+        "tickets": [
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personJ. Barnett",
+                "number": "17525",
+                "room": "roomSM 202",
+                "status": "Canceled",
+                "time": "3:00PM - 4:154:30PM - 5:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personJ. Barnett",
+                "number": "17520",
+                "room": "roomSM 202",
+                "status": "Open",
+                "time": "12:30PM - 1:452:00PM - 2:50"
+            }
+        ]
+    },
+    {
+        "course_description": "Basics of the Java languages. Classes, methods and parameters. Basic inheritance and event driven programming. Programming with Java libraries.",
+        "course_id": "CS 4A",
+        "course_info": "Units: 3.5lockPrerequisite: CS 1B",
+        "course_title": "CS 4A - INTRODUCTION TO JAVA FOR COMPUTER SCIENCE",
+        "tickets": [
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personG. Eaton",
+                "number": "14505",
+                "room": "roomSM 202",
+                "status": "Open",
+                "time": "11:00AM - 12:1512:30PM - 1:20"
+            },
+            {
+                "day": "T Th (Lec) T Th (Lab)",
+                "instructor": "personH. Bodhanwala",
+                "number": "14110",
+                "room": "roomSCI 311",
+                "status": "Canceled",
+                "time": "8:00AM - 9:159:30AM - 10:20"
+            }
+        ]
+    },
+    {
+        "course_description": "Advanced topics in Java to include GUI design using swing, the Java foundation classes, servlets, JSP, and JDBC.",
+        "course_id": "CS 4B",
+        "course_info": "Units: 3.5lockPrerequisite: CS 4A",
+        "course_title": "CS 4B - ADVANCED TOPICS IN JAVA FOR COMPUTER SCIENCE",
+        "tickets": [
+            {
+                "day": "M W (Lec)M W (Lab)",
+                "instructor": "personH. Bodhanwala",
+                "number": "14115",
+                "room": "roomSM 122",
+                "status": "Canceled",
+                "time": "8:00AM - 9:209:30AM - 10:20"
+            }
+        ]
+    }
+]

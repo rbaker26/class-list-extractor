@@ -20,6 +20,13 @@ sem_map = {
 #        space_stripper(string)
 #    elif (str(string).strip)
 
+def find_nth(haystack, needle, n):
+    start = haystack.find(needle)
+    while start >= 0 and n > 1:
+        start = haystack.find(needle, start+len(needle))
+        n -= 1
+    return start
+
 
 def build_dict(url):
     # The page has a dangling /div
@@ -43,7 +50,9 @@ def build_dict(url):
             # Temp strings to parse out the different times and days for lecture and lab
             temp_time_str = section.find(attrs={'title': 'TIME'}).text.strip()
             temp_day_str = section.find(attrs={'title': 'DAY'}).text.strip()
+
             temp_day_str_split = temp_day_str.find('(')
+            temp_time_str_split = find_nth(str(temp_time_str), ':',2)
 
             ticket = {
                     'number': section.find(attrs={'class': 'class-list-info-ticket'}).text.strip(),
@@ -52,12 +61,13 @@ def build_dict(url):
                     # instead of strings, these should be dicts with
                     # {'lecture': ..., 'lab': ...} 
                     #'day': str(section.find(attrs={'title': 'DAY'}).text.strip()),
-                    'lec_day': str(temp_day_str)[:temp_day_str_split-1].strip(),
-                    'lab_day': str(temp_day_str)[temp_day_str_split+5:temp_day_str_split+9].strip(),
+                    'lec_day': str(temp_day_str)[:temp_day_str_split].strip(),
+                    'lab_day': str(temp_day_str)[temp_day_str_split+5:temp_day_str_split+10].strip(),
                     #'time': section.find(attrs={'title': 'TIME'}).text.strip(),
-                    #11:00AM - 12:1512:30PM - 1:20
-                    'lec_time': str(temp_time_str)[0:13],
-                    'lab_time': str(temp_time_str)[13:],
+
+                    # These splits will split the lecture and lab times into seperate vals
+                    'lec_time': str(temp_time_str)[:temp_time_str_split+3],
+                    'lab_time': str(temp_time_str)[temp_time_str_split+3:],
                     'room': section.find(attrs={'class': 'class-list-room-text'}).text.strip(),
                     # (string)[6:] is needed to strip the 'person' icon text out of the <span> tag
                     'instructor': (section.find(attrs={'title': 'INSTRUCTOR'}).text.strip())[6:],

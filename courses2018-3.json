@@ -7,7 +7,7 @@
         "tickets": [
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -17,7 +17,7 @@
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "9:30AM - 10:15",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -27,17 +27,17 @@
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "M W",
-                "lab_time": "1512:30PM - 1:20",
+                "lab_day": "M W (",
+                "lab_time": "12:30PM - 1:20",
                 "lec_day": "M W",
-                "lec_time": "11:00AM - 12:",
+                "lec_time": "11:00AM - 12:15",
                 "number": "14135",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "T Th",
                 "lec_time": "8:00AM - 9:15",
@@ -47,7 +47,7 @@
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "T Th",
                 "lec_time": "8:00AM - 9:15",
@@ -57,17 +57,17 @@
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "T T",
-                "lab_time": "1512:30PM - 1:20",
+                "lab_day": "T Th",
+                "lab_time": "12:30PM - 1:20",
                 "lec_day": "T Th",
-                "lec_time": "11:00AM - 12:",
+                "lec_time": "11:00AM - 12:15",
                 "number": "14165",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "D. Rainey",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "3:30PM - 4:20",
                 "lec_day": "T Th",
                 "lec_time": "2:00PM - 3:15",
@@ -85,7 +85,7 @@
         "tickets": [
             {
                 "instructor": "J. Barnett",
-                "lab_day": "",
+                "lab_day": "F",
                 "lab_time": "8:00AM - 9:50",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -95,17 +95,17 @@
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "M W",
-                "lab_time": "511:00AM - 11:50",
+                "lab_day": "M W (",
+                "lab_time": "11:00AM - 11:50",
                 "lec_day": "M W",
-                "lec_time": "9:30AM - 10:4",
+                "lec_time": "9:30AM - 10:45",
                 "number": "14175",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "C. Oliveira",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "8:00PM - 8:50",
                 "lec_day": "M W",
                 "lec_time": "6:30PM - 7:45",
@@ -115,7 +115,7 @@
             },
             {
                 "instructor": "D. Begalli",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "6:30PM - 7:20",
                 "lec_day": "T Th",
                 "lec_time": "5:00PM - 6:15",
@@ -133,20 +133,20 @@
         "tickets": [
             {
                 "instructor": "J. Kath",
-                "lab_day": "T T",
-                "lab_time": "511:00AM - 11:50",
+                "lab_day": "T Th",
+                "lab_time": "11:00AM - 11:50",
                 "lec_day": "T Th",
-                "lec_time": "9:30AM - 10:4",
+                "lec_time": "9:30AM - 10:45",
                 "number": "14280",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "J. Kath",
-                "lab_day": "T T",
-                "lab_time": "52:00PM - 2:50",
+                "lab_day": "T Th",
+                "lab_time": "2:00PM - 2:50",
                 "lec_day": "T Th",
-                "lec_time": "12:30PM - 1:4",
+                "lec_time": "12:30PM - 1:45",
                 "number": "14320",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full"
@@ -161,7 +161,7 @@
         "tickets": [
             {
                 "instructor": "J. Lebowitz",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "3:30PM - 4:20",
                 "lec_day": "M W",
                 "lec_time": "2:00PM - 3:15",
@@ -171,7 +171,7 @@
             },
             {
                 "instructor": "J. Lebowitz",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "6:30PM - 7:20",
                 "lec_day": "M W",
                 "lec_time": "5:00PM - 6:15",
@@ -181,7 +181,7 @@
             },
             {
                 "instructor": "N. Ahmed",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "8:00PM - 8:50",
                 "lec_day": "T Th",
                 "lec_time": "6:30PM - 7:45",
@@ -199,7 +199,7 @@
         "tickets": [
             {
                 "instructor": "G. Eaton",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:15",
@@ -209,7 +209,7 @@
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "3:00PM - 3:50",
                 "lec_day": "M W",
                 "lec_time": "1:30PM - 2:45",
@@ -227,7 +227,7 @@
         "tickets": [
             {
                 "instructor": "J. Barnett",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "4:30PM - 5:20",
                 "lec_day": "T Th",
                 "lec_time": "3:00PM - 4:15",
@@ -237,10 +237,10 @@
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "T T",
-                "lab_time": "52:00PM - 2:50",
+                "lab_day": "T Th",
+                "lab_time": "2:00PM - 2:50",
                 "lec_day": "T Th",
-                "lec_time": "12:30PM - 1:4",
+                "lec_time": "12:30PM - 1:45",
                 "number": "17520",
                 "room": "roomSM 202",
                 "status": "Open"
@@ -255,17 +255,17 @@
         "tickets": [
             {
                 "instructor": "G. Eaton",
-                "lab_day": "M W",
-                "lab_time": "1512:30PM - 1:20",
+                "lab_day": "M W (",
+                "lab_time": "12:30PM - 1:20",
                 "lec_day": "M W",
-                "lec_time": "11:00AM - 12:",
+                "lec_time": "11:00AM - 12:15",
                 "number": "14505",
                 "room": "roomSM 202",
                 "status": "Open"
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "T T",
+                "lab_day": "T Th",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "T Th",
                 "lec_time": "8:00AM - 9:15",
@@ -283,7 +283,7 @@
         "tickets": [
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "M W",
+                "lab_day": "M W (",
                 "lab_time": "9:30AM - 10:20",
                 "lec_day": "M W",
                 "lec_time": "8:00AM - 9:20",

@@ -6,60 +6,74 @@
         "course_title": "CS 1A - INTRODUCTION TO COMPUTER SCIENCE I",
         "tickets": [
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "M. Rousseau",
+                "lab_day": "M W",
+                "lab_time": "9:30AM - 10:20",
+                "lec_day": "M W",
+                "lec_time": "8:00AM - 9:15",
                 "number": "14120",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "8:00AM - 9:159:30AM - 10:20"
+                "status": "Full"
             },
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "H. Bodhanwala",
+                "lab_day": "M W",
+                "lab_time": "9:30AM - 10:15",
+                "lec_day": "M W",
+                "lec_time": "8:00AM - 9:15",
                 "number": "80485",
                 "room": "roomSM 122",
-                "status": "Open",
-                "time": "8:00AM - 9:159:30AM - 10:15"
+                "status": "Open"
             },
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "M. Rousseau",
+                "lab_day": "M W",
+                "lab_time": "1512:30PM - 1:20",
+                "lec_day": "M W",
+                "lec_time": "11:00AM - 12:",
                 "number": "14135",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "11:00AM - 12:1512:30PM - 1:20"
+                "status": "Full"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "M. Rousseau",
+                "lab_day": "T T",
+                "lab_time": "9:30AM - 10:20",
+                "lec_day": "T Th",
+                "lec_time": "8:00AM - 9:15",
                 "number": "14155",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "8:00AM - 9:159:30AM - 10:20"
+                "status": "Full"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "H. Bodhanwala",
+                "lab_day": "T T",
+                "lab_time": "9:30AM - 10:20",
+                "lec_day": "T Th",
+                "lec_time": "8:00AM - 9:15",
                 "number": "80400",
                 "room": "roomSCI 311",
-                "status": "Full",
-                "time": "8:00AM - 9:159:30AM - 10:20"
+                "status": "Full"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "M. Rousseau",
+                "lab_day": "T T",
+                "lab_time": "1512:30PM - 1:20",
+                "lec_day": "T Th",
+                "lec_time": "11:00AM - 12:",
                 "number": "14165",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "11:00AM - 12:1512:30PM - 1:20"
+                "status": "Full"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "D. Rainey",
+                "lab_day": "T T",
+                "lab_time": "3:30PM - 4:20",
+                "lec_day": "T Th",
+                "lec_time": "2:00PM - 3:15",
                 "number": "14170",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "2:00PM - 3:153:30PM - 4:20"
+                "status": "Full"
             }
         ]
     },
@@ -70,36 +84,44 @@
         "course_title": "CS 1B - INTRODUCTION TO COMPUTER SCIENCE II",
         "tickets": [
             {
-                "day": "M W (Lec)    F (Lab)",
                 "instructor": "J. Barnett",
+                "lab_day": "",
+                "lab_time": "8:00AM - 9:50",
+                "lec_day": "M W",
+                "lec_time": "8:00AM - 9:15",
                 "number": "14215",
                 "room": "roomSM 346",
-                "status": "Open",
-                "time": "8:00AM - 9:158:00AM - 9:50"
+                "status": "Open"
             },
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "J. Barnett",
+                "lab_day": "M W",
+                "lab_time": "511:00AM - 11:50",
+                "lec_day": "M W",
+                "lec_time": "9:30AM - 10:4",
                 "number": "14175",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "9:30AM - 10:4511:00AM - 11:50"
+                "status": "Full"
             },
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "C. Oliveira",
+                "lab_day": "M W",
+                "lab_time": "8:00PM - 8:50",
+                "lec_day": "M W",
+                "lec_time": "6:30PM - 7:45",
                 "number": "14230",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "6:30PM - 7:458:00PM - 8:50"
+                "status": "Full"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "D. Begalli",
+                "lab_day": "T T",
+                "lab_time": "6:30PM - 7:20",
+                "lec_day": "T Th",
+                "lec_time": "5:00PM - 6:15",
                 "number": "14250",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "5:00PM - 6:156:30PM - 7:20"
+                "status": "Full"
             }
         ]
     },
@@ -110,20 +132,24 @@
         "course_title": "CS 1C - INTRODUCTION TO COMPUTER SCIENCE III",
         "tickets": [
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "J. Kath",
+                "lab_day": "T T",
+                "lab_time": "511:00AM - 11:50",
+                "lec_day": "T Th",
+                "lec_time": "9:30AM - 10:4",
                 "number": "14280",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "9:30AM - 10:4511:00AM - 11:50"
+                "status": "Full"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "J. Kath",
+                "lab_day": "T T",
+                "lab_time": "52:00PM - 2:50",
+                "lec_day": "T Th",
+                "lec_time": "12:30PM - 1:4",
                 "number": "14320",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "12:30PM - 1:452:00PM - 2:50"
+                "status": "Full"
             }
         ]
     },
@@ -134,28 +160,34 @@
         "course_title": "CS 1D - DATA STRUCTURES",
         "tickets": [
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "J. Lebowitz",
+                "lab_day": "M W",
+                "lab_time": "3:30PM - 4:20",
+                "lec_day": "M W",
+                "lec_time": "2:00PM - 3:15",
                 "number": "14480",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Full",
-                "time": "2:00PM - 3:153:30PM - 4:20"
+                "status": "Open"
             },
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "J. Lebowitz",
+                "lab_day": "M W",
+                "lab_time": "6:30PM - 7:20",
+                "lec_day": "M W",
+                "lec_time": "5:00PM - 6:15",
                 "number": "14490",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Open",
-                "time": "5:00PM - 6:156:30PM - 7:20"
+                "status": "Open"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "N. Ahmed",
+                "lab_day": "T T",
+                "lab_time": "8:00PM - 8:50",
+                "lec_day": "T Th",
+                "lec_time": "6:30PM - 7:45",
                 "number": "80000",
                 "room": "roomSM 301    roomSM 346",
-                "status": "Open",
-                "time": "6:30PM - 7:458:00PM - 8:50"
+                "status": "Open"
             }
         ]
     },
@@ -166,20 +198,24 @@
         "course_title": "CS 3A - COMPUTER ORGANIZATION AND MACHINE LANGUAGE",
         "tickets": [
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "G. Eaton",
+                "lab_day": "M W",
+                "lab_time": "9:30AM - 10:20",
+                "lec_day": "M W",
+                "lec_time": "8:00AM - 9:15",
                 "number": "17510",
                 "room": "roomSM 202",
-                "status": "Full",
-                "time": "8:00AM - 9:159:30AM - 10:20"
+                "status": "Full"
             },
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "J. Barnett",
+                "lab_day": "M W",
+                "lab_time": "3:00PM - 3:50",
+                "lec_day": "M W",
+                "lec_time": "1:30PM - 2:45",
                 "number": "17515",
                 "room": "roomSM 202",
-                "status": "Full",
-                "time": "1:30PM - 2:453:00PM - 3:50"
+                "status": "Full"
             }
         ]
     },
@@ -190,20 +226,24 @@
         "course_title": "CS 3B - COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
         "tickets": [
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "J. Barnett",
+                "lab_day": "T T",
+                "lab_time": "4:30PM - 5:20",
+                "lec_day": "T Th",
+                "lec_time": "3:00PM - 4:15",
                 "number": "17525",
                 "room": "roomSM 202",
-                "status": "Canceled",
-                "time": "3:00PM - 4:154:30PM - 5:20"
+                "status": "Canceled"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "J. Barnett",
+                "lab_day": "T T",
+                "lab_time": "52:00PM - 2:50",
+                "lec_day": "T Th",
+                "lec_time": "12:30PM - 1:4",
                 "number": "17520",
                 "room": "roomSM 202",
-                "status": "Open",
-                "time": "12:30PM - 1:452:00PM - 2:50"
+                "status": "Open"
             }
         ]
     },
@@ -214,20 +254,24 @@
         "course_title": "CS 4A - INTRODUCTION TO JAVA FOR COMPUTER SCIENCE",
         "tickets": [
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "G. Eaton",
+                "lab_day": "M W",
+                "lab_time": "1512:30PM - 1:20",
+                "lec_day": "M W",
+                "lec_time": "11:00AM - 12:",
                 "number": "14505",
                 "room": "roomSM 202",
-                "status": "Open",
-                "time": "11:00AM - 12:1512:30PM - 1:20"
+                "status": "Open"
             },
             {
-                "day": "T Th (Lec) T Th (Lab)",
                 "instructor": "H. Bodhanwala",
+                "lab_day": "T T",
+                "lab_time": "9:30AM - 10:20",
+                "lec_day": "T Th",
+                "lec_time": "8:00AM - 9:15",
                 "number": "14110",
                 "room": "roomSCI 311",
-                "status": "Canceled",
-                "time": "8:00AM - 9:159:30AM - 10:20"
+                "status": "Canceled"
             }
         ]
     },
@@ -238,12 +282,14 @@
         "course_title": "CS 4B - ADVANCED TOPICS IN JAVA FOR COMPUTER SCIENCE",
         "tickets": [
             {
-                "day": "M W (Lec)M W (Lab)",
                 "instructor": "H. Bodhanwala",
+                "lab_day": "M W",
+                "lab_time": "9:30AM - 10:20",
+                "lec_day": "M W",
+                "lec_time": "8:00AM - 9:20",
                 "number": "14115",
                 "room": "roomSM 122",
-                "status": "Canceled",
-                "time": "8:00AM - 9:209:30AM - 10:20"
+                "status": "Canceled"
             }
         ]
     }

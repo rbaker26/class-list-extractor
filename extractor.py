@@ -37,12 +37,11 @@ def build_dict(url):
                     'status': section.find(attrs={'class': 'class-list-info-status'}).text.strip(),
                     #FIXME split up lecture/lab in the following three fields
                     # instead of strings, these should be dicts with
-                    # {'lecture': ..., 'lab': ...}
+                    # {'lecture': ..., 'lab': ...} 
                     'day': section.find(attrs={'title': 'DAY'}).text.strip(),
                     'time': section.find(attrs={'title': 'TIME'}).text.strip(),
                     'room': section.find(attrs={'class': 'class-list-room-text'}).text.strip(),
-                    #FIXME remove the "person" icon text
-                    'instructor': section.find(attrs={'title': 'INSTRUCTOR'}).text.strip(),
+                    'instructor': (section.find(attrs={'title': 'INSTRUCTOR'}).text.strip())[6:],
                     }
             tickets.append(ticket)
 

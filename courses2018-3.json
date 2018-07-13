@@ -7,7 +7,7 @@
         "tickets": [
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personM. Rousseau",
+                "instructor": "M. Rousseau",
                 "number": "14120",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -15,7 +15,7 @@
             },
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personH. Bodhanwala",
+                "instructor": "H. Bodhanwala",
                 "number": "80485",
                 "room": "roomSM 122",
                 "status": "Open",
@@ -23,7 +23,7 @@
             },
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personM. Rousseau",
+                "instructor": "M. Rousseau",
                 "number": "14135",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -31,7 +31,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personM. Rousseau",
+                "instructor": "M. Rousseau",
                 "number": "14155",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -39,7 +39,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personH. Bodhanwala",
+                "instructor": "H. Bodhanwala",
                 "number": "80400",
                 "room": "roomSCI 311",
                 "status": "Full",
@@ -47,7 +47,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personM. Rousseau",
+                "instructor": "M. Rousseau",
                 "number": "14165",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -55,7 +55,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personD. Rainey",
+                "instructor": "D. Rainey",
                 "number": "14170",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -71,7 +71,7 @@
         "tickets": [
             {
                 "day": "M W (Lec)    F (Lab)",
-                "instructor": "personJ. Barnett",
+                "instructor": "J. Barnett",
                 "number": "14215",
                 "room": "roomSM 346",
                 "status": "Open",
@@ -79,7 +79,7 @@
             },
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personJ. Barnett",
+                "instructor": "J. Barnett",
                 "number": "14175",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -87,7 +87,7 @@
             },
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personC. Oliveira",
+                "instructor": "C. Oliveira",
                 "number": "14230",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -95,7 +95,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personD. Begalli",
+                "instructor": "D. Begalli",
                 "number": "14250",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -111,7 +111,7 @@
         "tickets": [
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personJ. Kath",
+                "instructor": "J. Kath",
                 "number": "14280",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -119,7 +119,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personJ. Kath",
+                "instructor": "J. Kath",
                 "number": "14320",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -135,7 +135,7 @@
         "tickets": [
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personJ. Lebowitz",
+                "instructor": "J. Lebowitz",
                 "number": "14480",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Full",
@@ -143,7 +143,7 @@
             },
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personJ. Lebowitz",
+                "instructor": "J. Lebowitz",
                 "number": "14490",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Open",
@@ -151,7 +151,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personN. Ahmed",
+                "instructor": "N. Ahmed",
                 "number": "80000",
                 "room": "roomSM 301    roomSM 346",
                 "status": "Open",
@@ -167,7 +167,7 @@
         "tickets": [
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personG. Eaton",
+                "instructor": "G. Eaton",
                 "number": "17510",
                 "room": "roomSM 202",
                 "status": "Full",
@@ -175,7 +175,7 @@
             },
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personJ. Barnett",
+                "instructor": "J. Barnett",
                 "number": "17515",
                 "room": "roomSM 202",
                 "status": "Full",
@@ -191,7 +191,7 @@
         "tickets": [
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personJ. Barnett",
+                "instructor": "J. Barnett",
                 "number": "17525",
                 "room": "roomSM 202",
                 "status": "Canceled",
@@ -199,7 +199,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personJ. Barnett",
+                "instructor": "J. Barnett",
                 "number": "17520",
                 "room": "roomSM 202",
                 "status": "Open",
@@ -215,7 +215,7 @@
         "tickets": [
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personG. Eaton",
+                "instructor": "G. Eaton",
                 "number": "14505",
                 "room": "roomSM 202",
                 "status": "Open",
@@ -223,7 +223,7 @@
             },
             {
                 "day": "T Th (Lec) T Th (Lab)",
-                "instructor": "personH. Bodhanwala",
+                "instructor": "H. Bodhanwala",
                 "number": "14110",
                 "room": "roomSCI 311",
                 "status": "Canceled",
@@ -239,7 +239,7 @@
         "tickets": [
             {
                 "day": "M W (Lec)M W (Lab)",
-                "instructor": "personH. Bodhanwala",
+                "instructor": "H. Bodhanwala",
                 "number": "14115",
                 "room": "roomSM 122",
                 "status": "Canceled",

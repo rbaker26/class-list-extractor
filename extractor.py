@@ -84,7 +84,6 @@ if __name__ == '__main__':
     import json
     cFileName = 'courses{year}-{semester}.json'
     with open(cFileName.format(year=year, semester=semester), 'w') as file:
-    #with open(str('courses' + str(year) + '-' + str(semester) + '.json'), 'w') as file:
         json.dump(courses, file, sort_keys=True, indent=4)
     tickets = ticket_list(courses)
     tFilename = 'tickets{year}-{semester}.txt'

@@ -3,79 +3,114 @@
         "course_description": "Exploration of computer hardware and software. Emphasis on problem solving and programming in C++. Provides necessary foundation for CS 1B.",
         "course_id": "CS 1A",
         "course_info": {
-            "prereq": "null",
+            "prereq": null,
             "units": "3.5"
         },
         "course_title": "CS 1A - INTRODUCTION TO COMPUTER SCIENCE I",
         "tickets": [
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "M W",
-                "lab_time": "9:30AM - 10:20",
-                "lec_day": "M W",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "9:30AM - 10:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 301",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "14120",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "M W",
-                "lab_time": "9:30AM - 10:15",
-                "lec_day": "M W",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "M W",
+                    "room": null,
+                    "time": "9:30AM - 10:15"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 122",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "80485",
-                "room": "roomSM 122",
                 "status": "Open"
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "M W",
-                "lab_time": "12:30PM - 1:20",
-                "lec_day": "M W",
-                "lec_time": "11:00AM - 12:15",
+                "lab": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "12:30PM - 1:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 301",
+                    "time": "11:00AM - 12:15"
+                },
                 "number": "14135",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "T Th",
-                "lab_time": "9:30AM - 10:20",
-                "lec_day": "T Th",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "9:30AM - 10:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "14155",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "T Th",
-                "lab_time": "9:30AM - 10:20",
-                "lec_day": "T Th",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": null,
+                    "time": "9:30AM - 10:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SCI 311",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "80400",
-                "room": "roomSCI 311",
                 "status": "Full"
             },
             {
                 "instructor": "M. Rousseau",
-                "lab_day": "T Th",
-                "lab_time": "12:30PM - 1:20",
-                "lec_day": "T Th",
-                "lec_time": "11:00AM - 12:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "12:30PM - 1:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "11:00AM - 12:15"
+                },
                 "number": "14165",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "D. Rainey",
-                "lab_day": "T Th",
-                "lab_time": "3:30PM - 4:20",
-                "lec_day": "T Th",
-                "lec_time": "2:00PM - 3:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "3:30PM - 4:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "2:00PM - 3:15"
+                },
                 "number": "14170",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             }
         ]
@@ -91,42 +126,62 @@
         "tickets": [
             {
                 "instructor": "J. Barnett",
-                "lab_day": "F",
-                "lab_time": "8:00AM - 9:50",
-                "lec_day": "M W",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "F",
+                    "room": null,
+                    "time": "8:00AM - 9:50"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "14215",
-                "room": "roomSM 346",
                 "status": "Open"
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "M W",
-                "lab_time": "11:00AM - 11:50",
-                "lec_day": "M W",
-                "lec_time": "9:30AM - 10:45",
+                "lab": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "11:00AM - 11:50"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 301",
+                    "time": "9:30AM - 10:45"
+                },
                 "number": "14175",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "C. Oliveira",
-                "lab_day": "M W",
-                "lab_time": "8:00PM - 8:50",
-                "lec_day": "M W",
-                "lec_time": "6:30PM - 7:45",
+                "lab": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "8:00PM - 8:50"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 301",
+                    "time": "6:30PM - 7:45"
+                },
                 "number": "14230",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "D. Begalli",
-                "lab_day": "T Th",
-                "lab_time": "6:30PM - 7:20",
-                "lec_day": "T Th",
-                "lec_time": "5:00PM - 6:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "6:30PM - 7:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "5:00PM - 6:15"
+                },
                 "number": "14250",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             }
         ]
@@ -142,22 +197,32 @@
         "tickets": [
             {
                 "instructor": "J. Kath",
-                "lab_day": "T Th",
-                "lab_time": "11:00AM - 11:50",
-                "lec_day": "T Th",
-                "lec_time": "9:30AM - 10:45",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "11:00AM - 11:50"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "9:30AM - 10:45"
+                },
                 "number": "14280",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             },
             {
                 "instructor": "J. Kath",
-                "lab_day": "T Th",
-                "lab_time": "2:00PM - 2:50",
-                "lec_day": "T Th",
-                "lec_time": "12:30PM - 1:45",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "2:00PM - 2:50"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "12:30PM - 1:45"
+                },
                 "number": "14320",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Full"
             }
         ]
@@ -173,32 +238,47 @@
         "tickets": [
             {
                 "instructor": "J. Lebowitz",
-                "lab_day": "M W",
-                "lab_time": "3:30PM - 4:20",
-                "lec_day": "M W",
-                "lec_time": "2:00PM - 3:15",
+                "lab": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "3:30PM - 4:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 301",
+                    "time": "2:00PM - 3:15"
+                },
                 "number": "14480",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Open"
             },
             {
                 "instructor": "J. Lebowitz",
-                "lab_day": "M W",
-                "lab_time": "6:30PM - 7:20",
-                "lec_day": "M W",
-                "lec_time": "5:00PM - 6:15",
+                "lab": {
+                    "day": "M W",
+                    "room": "SM 346",
+                    "time": "6:30PM - 7:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 301",
+                    "time": "5:00PM - 6:15"
+                },
                 "number": "14490",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Open"
             },
             {
                 "instructor": "N. Ahmed",
-                "lab_day": "T Th",
-                "lab_time": "8:00PM - 8:50",
-                "lec_day": "T Th",
-                "lec_time": "6:30PM - 7:45",
+                "lab": {
+                    "day": "T Th",
+                    "room": "SM 346",
+                    "time": "8:00PM - 8:50"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 301",
+                    "time": "6:30PM - 7:45"
+                },
                 "number": "80000",
-                "room": "roomSM 301    roomSM 346",
                 "status": "Open"
             }
         ]
@@ -214,22 +294,32 @@
         "tickets": [
             {
                 "instructor": "G. Eaton",
-                "lab_day": "M W",
-                "lab_time": "9:30AM - 10:20",
-                "lec_day": "M W",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "M W",
+                    "room": null,
+                    "time": "9:30AM - 10:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 202",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "17510",
-                "room": "roomSM 202",
                 "status": "Full"
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "M W",
-                "lab_time": "3:00PM - 3:50",
-                "lec_day": "M W",
-                "lec_time": "1:30PM - 2:45",
+                "lab": {
+                    "day": "M W",
+                    "room": null,
+                    "time": "3:00PM - 3:50"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 202",
+                    "time": "1:30PM - 2:45"
+                },
                 "number": "17515",
-                "room": "roomSM 202",
                 "status": "Full"
             }
         ]
@@ -245,22 +335,32 @@
         "tickets": [
             {
                 "instructor": "J. Barnett",
-                "lab_day": "T Th",
-                "lab_time": "4:30PM - 5:20",
-                "lec_day": "T Th",
-                "lec_time": "3:00PM - 4:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": null,
+                    "time": "4:30PM - 5:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 202",
+                    "time": "3:00PM - 4:15"
+                },
                 "number": "17525",
-                "room": "roomSM 202",
                 "status": "Canceled"
             },
             {
                 "instructor": "J. Barnett",
-                "lab_day": "T Th",
-                "lab_time": "2:00PM - 2:50",
-                "lec_day": "T Th",
-                "lec_time": "12:30PM - 1:45",
+                "lab": {
+                    "day": "T Th",
+                    "room": null,
+                    "time": "2:00PM - 2:50"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SM 202",
+                    "time": "12:30PM - 1:45"
+                },
                 "number": "17520",
-                "room": "roomSM 202",
                 "status": "Open"
             }
         ]
@@ -276,22 +376,32 @@
         "tickets": [
             {
                 "instructor": "G. Eaton",
-                "lab_day": "M W",
-                "lab_time": "12:30PM - 1:20",
-                "lec_day": "M W",
-                "lec_time": "11:00AM - 12:15",
+                "lab": {
+                    "day": "M W",
+                    "room": null,
+                    "time": "12:30PM - 1:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 202",
+                    "time": "11:00AM - 12:15"
+                },
                 "number": "14505",
-                "room": "roomSM 202",
                 "status": "Open"
             },
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "T Th",
-                "lab_time": "9:30AM - 10:20",
-                "lec_day": "T Th",
-                "lec_time": "8:00AM - 9:15",
+                "lab": {
+                    "day": "T Th",
+                    "room": null,
+                    "time": "9:30AM - 10:20"
+                },
+                "lecture": {
+                    "day": "T Th",
+                    "room": "SCI 311",
+                    "time": "8:00AM - 9:15"
+                },
                 "number": "14110",
-                "room": "roomSCI 311",
                 "status": "Canceled"
             }
         ]
@@ -307,12 +417,17 @@
         "tickets": [
             {
                 "instructor": "H. Bodhanwala",
-                "lab_day": "M W",
-                "lab_time": "9:30AM - 10:20",
-                "lec_day": "M W",
-                "lec_time": "8:00AM - 9:20",
+                "lab": {
+                    "day": "M W",
+                    "room": null,
+                    "time": "9:30AM - 10:20"
+                },
+                "lecture": {
+                    "day": "M W",
+                    "room": "SM 122",
+                    "time": "8:00AM - 9:20"
+                },
                 "number": "14115",
-                "room": "roomSM 122",
                 "status": "Canceled"
             }
         ]

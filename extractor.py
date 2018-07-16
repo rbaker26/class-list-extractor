@@ -14,16 +14,6 @@ sem_map = {
         3: 'Fall',
         }
 
-#*******************************************************************************************************************
-def find_nth(haystack, needle, n):
-    start = haystack.find(needle)
-    while start >= 0 and n > 1:
-        start = haystack.find(needle, start+len(needle))
-        n -= 1
-    return start
-#*******************************************************************************************************************
-
-
 
 #*******************************************************************************************************************
 def build_dict(url):
@@ -31,23 +21,28 @@ def build_dict(url):
     # Python's html.parser doesn't handle this adequately, so we need html5lib
     soup = BeautifulSoup(urlopen(url).read(), "html5lib")
 
+    # remove all icon tags
+    for icons in soup.find_all(class_='material-icons'):
+        icons.decompose()
+
     courses = []
     course_tables = soup.find_all(attrs={'class': 'class-list-course-list'})
     for course_table in course_tables:
+
         tickets = []
 
-        temp_prereq_str = course_table.find(attrs={'class': 'class-list-course-info'}).text.strip()
-        if (len(temp_prereq_str) > 12):
-            temp_prereq_split = temp_prereq_str.find('Prerequisite')
-            temp_prereq_str = temp_prereq_str[temp_prereq_split+13:].strip()
-        else:
-            temp_prereq_str = 'null'
-
+        # Clean up the prereq data
+        prereq = course_table.find(class_='class-list-prereq')
+        if prereq:
+            prereq = prereq.text.strip()
+            if prereq.startswith('Prerequisite: '):
+                prereq = prereq.lstrip('Prerequisite: ')
 
         course_info = {
             'units' : course_table.find(attrs={'class': 'class-list-unit'}).text.strip()[7:],
-            'prereq': temp_prereq_str,
+            'prereq': prereq,
             }
+
         course = {
                 'course_id': course_table.find(attrs={'class': 'course-id'}).text.strip(),
                 'course_title' : course_table.find(attrs={'class': 'class-list-course-title'}).text.strip(),
@@ -57,33 +52,39 @@ def build_dict(url):
                 }
         courses.append(course)
         for section in course_table.find_all(attrs={'class': 'class-list-info-method'}):
-            # Temp strings to parse out the different times and days for lecture and lab
-            temp_time_str = section.find(attrs={'title': 'TIME'}).text.strip()
-            temp_day_str = section.find(attrs={'title': 'DAY'}).text.strip()
+            
+            # remove all small tags
+            for smalls in section.find_all(class_='ins-method'):
+                smalls.decompose()
+            class_days = section.find(attrs={'title': 'DAY'})
+            class_days = list(class_days)
 
-            # First split is for getting the lec_day
-            # The second and third split will get the lab_day
-            temp_day_str_split = temp_day_str.find('(')
-            temp_day_str_split2 = temp_day_str.find(')')
-            temp_day_str_split3 = find_nth(temp_day_str, '(', 2)
+            class_times = list(section.find(attrs={'title': 'TIME'}).children)
+            
+            # Seperate Lab and Lecture Rooms
+            lec_room = section.find(class_='class-list-room-text')
+            lab_room = lec_room.find(class_='extra-room')
+            # None-check for lab attrabutes
+            if lab_room:
+                lab_room.extract()
+                lab_room = lab_room.text.strip()
 
-            # This will split the two concatinated times into seperate values
-            temp_time_str_split = find_nth(str(temp_time_str), ':',2)
-
+            lecture = {
+                'day':class_days[0].strip(),
+                'time':class_times[0].strip(),
+                'room': lec_room.text.strip(),
+            }
+            lab = { 
+                'day':class_days[-1].strip(),
+                'time':class_times[-1].strip(),
+                'room': lab_room,
+            }
             ticket = {
                     'number': section.find(attrs={'class': 'class-list-info-ticket'}).text.strip(),
                     'status': section.find(attrs={'class': 'class-list-info-status'}).text.strip(),
-
-                    'lec_day': str(temp_day_str)[:temp_day_str_split].strip(),
-                    'lab_day': str(temp_day_str)[temp_day_str_split2+1:temp_day_str_split3].strip(),
-
-                    # These splits will split the lecture and lab times into seperate vals
-                    'lec_time': str(temp_time_str)[:temp_time_str_split+3],
-                    'lab_time': str(temp_time_str)[temp_time_str_split+3:],
-                    'room': section.find(attrs={'class': 'class-list-room-text'}).text.strip(),
-
-                    # (string)[6:] is needed to strip the 'person' icon text out of the <span> tag
-                    'instructor': (section.find(attrs={'title': 'INSTRUCTOR'}).text.strip())[6:],
+                    'lecture': lecture,
+                    'lab': lab,                   
+                    'instructor': (section.find(attrs={'title': 'INSTRUCTOR'}).text.strip()),
                     }
             tickets.append(ticket)
     return courses

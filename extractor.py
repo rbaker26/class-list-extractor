@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from bs4 import BeautifulSoup
-from gettext import find
 from urllib.request import urlopen
 
 # templateized so that the year and semester can easily be changed

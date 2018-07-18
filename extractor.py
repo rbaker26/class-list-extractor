@@ -68,6 +68,11 @@ def build_dict(url):
                 lab_room.extract()
                 lab_room = lab_room.text.strip()
 
+            # If lab is in the same room as lecture
+            if lab_room == None and class_times[-1].strip():
+                lab_room = lec_room.text.strip()
+
+
             lecture = {
                 'day':class_days[0].strip(),
                 'time':class_times[0].strip(),
